@@ -1,4 +1,3 @@
-//const mapAds = ["/country.js", "/costom-botton-shoope.js", "/anti-adblock.js", "/disable-costom-button-back.js", "/banner.js", "/directshope.js"];
 const mapAds = ["/country.js", "/costom-botton-shoope.js", "/anti-adblock.js", "/disable-costom-button-back.js", "/banner.js"];
 var hostUri = "new.pahe.my.id";
 const randomNumberHash = (n) => {
