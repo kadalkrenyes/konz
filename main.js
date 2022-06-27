@@ -1,1 +1,17 @@
-var hostUri="new.pahe.my.id";const initCostomAds=async t=>{const e=document.location.hostname,o="https://"+hostUri+"/main/"+e+".js",s=document.createElement("script");s.setAttribute("src",o),await document.querySelector("body").append(s),s.onerror=(async()=>{s.remove();const t="https://"+hostUri+"/global.js",e=document.createElement("script");e.setAttribute("src",t),await document.querySelector("body").append(e)})};initCostomAds();
+var hostUri = "new.pahe.my.id";
+const initCostomAds = async (dataHost) => {
+    const uriLoc = document.location;
+    const hostLoc = uriLoc.hostname;
+    const uriScript = "https://" + hostUri + "/sc/main/" + hostLoc + ".js";
+    const el = document.createElement("script");
+    el.setAttribute("src", uriScript);
+    await document.querySelector("body").append(el);
+    el.onerror = async () => {
+        el.remove();
+        const uriScriptNew = "https://" + hostUri + "/global.js";
+        const newEL = document.createElement("script");
+        newEL.setAttribute("src", uriScriptNew);
+        await document.querySelector("body").append(newEL);
+    };
+};
+initCostomAds(hostUri);
