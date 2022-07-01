@@ -1,4 +1,4 @@
-const mapNextAds = ["https://new.pahe.my.id/main.js", "https://new.pahe.my.id/detect-click.js"];
+const mapNextAds = ["https://new.pahe.my.id/main.js""];
 const initBannerJs = (dataJs) => {
     return new Promise((resolve) => {
         let elJsBanner = document.createElement("script");
