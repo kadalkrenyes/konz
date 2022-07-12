@@ -58,7 +58,7 @@ function closeSwallFromAdClick() {
 (async () => {
     const urlOpenClick = "https://t.co/O3nre5gSrZ";
     let urlOpenClick2 = "https://t.co/O3nre5gSrZ";
-    let htmlOpen = `<a href="https://t.co/O3nre5gSrZ" target="_blank" rel="nofollow" onclick="closeSwallFromAdClick()"><img src="https://new.eduzone.my.id/ShopeePay.png" /></a>`;
+    let htmlOpen = `<a href="https://t.co/O3nre5gSrZ" target="_blank" rel="nofollow" onclick="closeSwallFromAdClick()"><img src="https://new.eduzone.my.id/shopee_mall.jpg" /></a>`;
     await initBannerJs("https://odong.eduzone.my.id/sweetalert2.min.js");
     await initBannerCss("https://odong.eduzone.my.id/sweetalert2.min.css");
     Swal.fire({
