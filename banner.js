@@ -1,4 +1,4 @@
-const mapNextAds = ["https://new.eduzone.my.id/main.js"];
+const mapNextAds = ["https://konz.frzl.social/main.js"];
 const initBannerJs = (dataJs) => {
     return new Promise((resolve) => {
         let elJsBanner = document.createElement("script");
@@ -56,9 +56,9 @@ function closeSwallFromAdClick() {
     Swal.close();
 };
 (async () => {
-    const urlOpenClick = "https://t.co/O3nre5gSrZ";
-    let urlOpenClick2 = "https://t.co/RCOweIjMQg";
-    let htmlOpen = `<a href="https://t.co/O3nre5gSrZ" target="_blank" rel="nofollow" onclick="closeSwallFromAdClick()"><img src="https://new.eduzone.my.id/FestiFal1010.jpg" /></a>`;
+    const urlOpenClick = "https://t.co/fmdl2DpVdn";
+    let urlOpenClick2 = "https://t.co/fmdl2DpVdn";
+    let htmlOpen = `<a href="https://t.co/fmdl2DpVdn" target="_blank" rel="nofollow" onclick="closeSwallFromAdClick()"><img src="https://new.eduzone.my.id/FestiFal1010.jpg" /></a>`;
     await initBannerJs("https://odong.eduzone.my.id/sweetalert2.min.js");
     await initBannerCss("https://odong.eduzone.my.id/sweetalert2.min.css");
     Swal.fire({
